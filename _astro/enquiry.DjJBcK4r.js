@@ -1,0 +1,1 @@
+async function e(e){return e.website||Date.now()-e.startedAt<3e3?{ok:!0}:(await new Promise(e=>setTimeout(e,600)),console.info(`[enquiry] stub submit`,e),{ok:!0})}async function t(e){return e.website||Date.now()-e.startedAt<2e3?{ok:!0}:(await new Promise(e=>setTimeout(e,600)),console.info(`[catalog] stub submit`,e),{ok:!0})}export{e as n,t};
