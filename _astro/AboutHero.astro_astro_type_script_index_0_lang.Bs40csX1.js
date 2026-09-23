@@ -1,1 +1,0 @@
-import{r as e,t}from"./motion.DvAAEDhQ.js";var n=document.querySelector(`.about-hero`),r=n?.querySelector(`.about-hero_image`);n&&r&&!t&&e.to(r,{scale:1,duration:2.4,delay:.15,onComplete:()=>{n.classList.add(`is-loaded`),e.set(r,{clearProps:`all`})}});
